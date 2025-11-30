@@ -33,7 +33,13 @@ const Categories = () => {
             fetchData();
         } catch (error) {
             console.error('Error creating category:', error);
-            alert('Failed to create category');
+            let errorMessage = 'Failed to create category';
+            if (error.response?.data?.detail) {
+                errorMessage = error.response.data.detail;
+            } else if (error.message) {
+                errorMessage = error.message;
+            }
+            alert(`Error: ${errorMessage}`);
         }
     };
 

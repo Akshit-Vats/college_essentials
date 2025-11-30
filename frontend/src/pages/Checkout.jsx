@@ -63,7 +63,13 @@ const Checkout = () => {
             clearCart();
         } catch (error) {
             console.error('Order failed:', error);
-            const errorMessage = error.response?.data?.detail || error.message || 'Failed to place order';
+            let errorMessage = 'Failed to place order';
+            if (error.response?.data?.detail) {
+                const detail = error.response.data.detail;
+                errorMessage = typeof detail === 'object' ? JSON.stringify(detail) : detail;
+            } else if (error.message) {
+                errorMessage = error.message;
+            }
             alert(`Order Failed: ${errorMessage}`);
         } finally {
             setLoading(false);

@@ -1,0 +1,140 @@
+=== CATEGORIES ===
+ID: 7 | Name: Books & Study | Slug: books-study
+Image: https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=2073&auto=format&fit=crop
+--------------------
+ID: 8 | Name: Electronics | Slug: electronics
+Image: https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop
+--------------------
+ID: 9 | Name: Hostel Needs | Slug: hostel-needs
+Image: https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=2069&auto=format&fit=crop
+--------------------
+ID: 10 | Name: Food & Snacks | Slug: food-snacks
+Image: https://images.unsplash.com/photo-1588964895597-a2b385556a13?q=80&w=2070&auto=format&fit=crop
+--------------------
+ID: 11 | Name: Stationery | Slug: stationery
+Image: https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=2069&auto=format&fit=crop
+--------------------
+ID: 12 | Name: Project Kits | Slug: project-kits
+Image: https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?q=80&w=2069&auto=format&fit=crop
+--------------------
+
+=== PRODUCTS ===
+Category: Books & Study
+Name: Engineering Mathematics
+Price: 599
+Stock: 99
+Description: High quality Engineering Mathematics for students.
+Image: https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Books & Study
+Name: Data Structures & Algorithms
+Price: 750
+Stock: 100
+Description: High quality Data Structures & Algorithms for students.
+Image: https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Books & Study
+Name: Physics for Scientists
+Price: 899
+Stock: 97
+Description: High quality Physics for Scientists for students.
+Image: https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Electronics
+Name: Logitech Wireless Mouse
+Price: 899
+Stock: 99
+Description: High quality Logitech Wireless Mouse for students.
+Image: https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=2067&auto=format&fit=crop
+--------------------
+Category: Electronics
+Name: Noise Cancelling Headphones
+Price: 2499
+Stock: 99
+Description: High quality Noise Cancelling Headphones for students.
+Image: https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop
+--------------------
+Category: Electronics
+Name: USB-C Hub
+Price: 1299
+Stock: 99
+Description: High quality USB-C Hub for students.
+Image: https://images.unsplash.com/photo-1625231334168-35026fcf7c60?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Hostel Needs
+Name: Electric Kettle
+Price: 899
+Stock: 99
+Description: High quality Electric Kettle for students.
+Image: https://images.unsplash.com/photo-1594213114663-d94db9b17126?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Hostel Needs
+Name: Laundry Basket
+Price: 399
+Stock: 99
+Description: High quality Laundry Basket for students.
+Image: https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Hostel Needs
+Name: Extension Cord
+Price: 499
+Stock: 100
+Description: High quality Extension Cord for students.
+Image: https://images.unsplash.com/photo-1585338107529-13afc5f02586?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Food & Snacks
+Name: Instant Noodles Pack
+Price: 120
+Stock: 100
+Description: High quality Instant Noodles Pack for students.
+Image: https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Food & Snacks
+Name: Energy Bar Box
+Price: 350
+Stock: 99
+Description: High quality Energy Bar Box for students.
+Image: https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Food & Snacks
+Name: Coffee Powder
+Price: 250
+Stock: 100
+Description: High quality Coffee Powder for students.
+Image: https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Food & Snacks
+Name: Potato Chips (Salted)
+Price: 40
+Stock: 100
+Description: High quality Potato Chips (Salted) for students.
+Image: https://images.unsplash.com/photo-1566478919030-415679e36388?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Stationery
+Name: Premium Notebook Set
+Price: 299
+Stock: 110
+Description: High quality Premium Notebook Set for students.
+Image: https://images.unsplash.com/photo-1531346878377-a513bc950634?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Stationery
+Name: Gel Pen Kit
+Price: 150
+Stock: 103
+Description: High quality Gel Pen Kit for students.
+Image: https://images.unsplash.com/photo-1585336261022-680e295ce3fe?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Project Kits
+Name: Arduino Starter Kit
+Price: 1500
+Stock: 99
+Description: High quality Arduino Starter Kit for students.
+Image: https://images.unsplash.com/photo-1553406830-ef2513450d76?q=80&w=800&auto=format&fit=crop
+--------------------
+Category: Project Kits
+Name: Raspberry Pi 4
+Price: 4500
+Stock: 100
+Description: High quality Raspberry Pi 4 for students.
+Image: https://images.unsplash.com/photo-1550041473-d296a3a8a18a?q=80&w=800&auto=format&fit=crop
+--------------------
