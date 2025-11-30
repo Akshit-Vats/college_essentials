@@ -119,3 +119,10 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 if os.environ.get("FRONTEND_URL"):
     CSRF_TRUSTED_ORIGINS.append(os.environ.get("FRONTEND_URL"))
+
+# Cookie Configuration for Cross-Site (Vercel)
+# Required because Frontend and Backend are on different domains
+SESSION_COOKIE_SAMESITE = 'None'
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SAMESITE = 'None'
+CSRF_COOKIE_SECURE = True
