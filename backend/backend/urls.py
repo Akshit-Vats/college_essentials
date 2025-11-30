@@ -14,7 +14,13 @@ api.add_router("/auth", core_router)
 def hello(request):
     return {"message": "Hello from Django Ninja!"}
 
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({"message": "Campus Essentials Backend is Running 🚀"})
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', api.urls),
+    path('', home),
 ]
