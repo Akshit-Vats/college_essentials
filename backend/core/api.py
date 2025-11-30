@@ -32,14 +32,25 @@ def signup(request: HttpRequest, payload: SignupSchema):
         from ninja.errors import HttpError
         raise HttpError(400, "Username already exists")
     
-    user = User.objects.create_user(
-        username=payload.username,
-        email=payload.email,
-        password=payload.password,
-        first_name=payload.first_name,
-        last_name=payload.last_name
-    )
+    try:
+        user = User.objects.create_user(
+            username=payload.username,
+            email=payload.email,
+            password=payload.password,
+            first_name=payload.first_name,
+            last_name=payload.last_name
+        )
+    except Exception as e:
+        from ninja.errors import HttpError
+        raise HttpError(500, f"Error creating user: {str(e)}")
+
     user = authenticate(request, username=payload.username, password=payload.password)
+    
+    if user is None:
+        # This should theoretically not happen right after creation, but good to handle
+        from ninja.errors import HttpError
+        raise HttpError(500, "User created but authentication failed")
+
     login(request, user)
     
     # Check for supplier profile

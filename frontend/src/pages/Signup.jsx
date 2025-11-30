@@ -26,7 +26,14 @@ const Signup = () => {
             await signup(formData);
             navigate('/');
         } catch (err) {
-            setError('Error creating account. Username might be taken.');
+            console.error('Signup error:', err);
+            let errorMessage = 'Error creating account.';
+            if (err.response?.data?.detail) {
+                errorMessage = err.response.data.detail;
+            } else if (err.message) {
+                errorMessage = err.message;
+            }
+            setError(errorMessage);
         }
     };
 
