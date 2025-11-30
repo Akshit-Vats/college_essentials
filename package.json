@@ -1,0 +1,11 @@
+{
+    "name": "college-essentials-monorepo",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "concurrently \"cd backend && python manage.py runserver\" \"cd frontend && npm run dev\"",
+        "install:all": "pip install -r backend/requirements.txt && cd frontend && npm install && cd .. && npm install"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
