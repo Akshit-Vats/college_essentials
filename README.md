@@ -50,9 +50,13 @@ It includes:
 \`\`\`
 ecommerce-project/
 │
+
 ├── front_end/        # UI code
+
 ├── back_end/         # Server code
+
 ├── README.md
+
 \`\`\`
 
 ## 👨‍💻 Author
